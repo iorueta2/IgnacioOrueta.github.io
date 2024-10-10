@@ -1,5 +1,5 @@
 {
-  "$-hema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Electricity",
     "anchor": "start",
@@ -27,7 +27,7 @@
     }
   },
   "mark": {
-    "type": "bar",
+    "type": "area",
     "color": "#f4134d",
     "strokeWidth": "2"
   },
