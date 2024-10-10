@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Electricity",
+    "text": "GDP growth",
     "anchor": "start",
-    "subtitle": "Output, GWh, | IEA via ECO-API",
+    "subtitle": "GDP growth, % | NBS through ECO API",
     "fontSize": "14",
     "subtitleFontSize": "12",
     "color": "#000000",
@@ -21,7 +21,7 @@
     "strokeOpacity": 0
   },
   "data": {
-    "url": "https://api.economicsobservatory.com/chn/eGWh?vega",
+    "url": "https://api.economicsobservatory.com/chn/grow?vega",
     "format": {
       "type": "json"
     }
